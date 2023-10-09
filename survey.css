@@ -1,0 +1,65 @@
+*{margin: 0;
+padding:0;
+box-sizing: border-box;}
+body{height:100%;
+width:100%;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+justify-content: center;
+background-color: cadetblue;}
+.container{width:60%;
+    background-color: aquamarine;
+}
+.container h1{text-align: center;
+padding: 20px;}
+.form{width:100%;
+padding: 15px 30px;}
+input{height:30px;
+width:25%;
+margin:5px 0;
+padding: 0 10px;}
+.satisfy,.value{height:20px;
+width:5%;
+margin: 5px 0;}
+.salary,.beneift,.Feedback,.leader,.training,.Evaluation,.Environment{
+    width: 36%;
+}
+h3{font-size: 20px;}
+h2{font-size:25px;
+margin:8px 0;}
+h4{font-size:20px;
+margin:8px 0;}
+table{border-collapse: collapse;
+empty-cells: hide;
+color:black !important;
+background-color: gray;}
+table tr label{
+    width:17vw;
+    display: block;
+}
+table th,td{
+padding: 10px;
+font-size: 13px;
+width:5vw;
+text-align: center;
+border:1px solid black !important;
+}
+.head{font-weight: bold;}
+.textarea{width:70%;}
+.submitted{width:100%;
+    text-align: center;}
+.submit{text-align: center;
+margin:15px 0px;
+color:#fff;
+font-size: 20px;
+height:30px;
+width:90px;
+outline: none;
+background-color:crimson;
+font-weight: bold;
+cursor:pointer;
+border-radius: 10px;}
+.submit:hover{background-color:darksalmon;
+color:black;}
+
